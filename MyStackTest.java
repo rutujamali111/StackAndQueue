@@ -11,10 +11,14 @@ public class MyStackTest {
 		mystack.push(mySecondhNode);
 		mystack.push(myThirdNode);
 		mystack.printStack();
+		INode peak=mystack.peak();
 		
+		while(!mystack.isEmpty())
+		{
+			INode pop=mystack.pop();
+			
+		}
 		
-		
-
 	}
 
 }

@@ -1,6 +1,6 @@
 public class MyLinkedList<K> {
-	private INode head;
-	private INode tail;
+	 INode head;
+	 INode tail;
 
 	public MyLinkedList() {
 		// TODO Auto-generated constructor stub

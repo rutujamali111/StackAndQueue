@@ -16,6 +16,21 @@ public class MyStack<K>
 		myLinkedList.PrintMyNodes();
 		
 	}
+	public INode peak() {
+		// TODO Auto-generated method stub
+		return myLinkedList.head;
+	}
+	public boolean isEmpty()
+	{
+		if(myLinkedList.head==null)
+			return true;
+		else
+			return false;
+	}
+	public INode pop() {
+		// TODO Auto-generated method stub
+		return myLinkedList.pop();
+	}
 	
 	
 }
