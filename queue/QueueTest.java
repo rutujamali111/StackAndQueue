@@ -12,6 +12,11 @@ public class QueueTest {
 		que.queueEnqueue(5);
 		que.queueDisplay();
 		
+		que.queueDequeue();
+		que.queueDequeue();
+		System.out.println("/n");
+		que.queueDisplay();
+		
 
 	}
 
